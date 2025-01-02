@@ -1,11 +1,11 @@
 include:
   - board: nice_nano_v2
-    shield: ao40_left
+    shield: bwwjjkeyboard_left
   - board: nice_nano_v2
-    shield: ao40_right
+    shield: bwwjjkeyboard40_right
   - board: nice_nano_v2
-    shield: ao20_L
+    shield: bwwjjkeyboard20_L
   - board: nice_nano_v2
-    shield: ao20_R
+    shield: bwwjjkeyboard20_R
   - board: nice_nano_v2
     shield: settings_reset

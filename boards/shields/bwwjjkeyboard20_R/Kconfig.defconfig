@@ -1,0 +1,6 @@
+if SHIELD_bwwjjkeyboard20_R
+
+config ZMK_KEYBOARD_NAME
+    default "bwwjjkeyboard20_R"
+
+endif

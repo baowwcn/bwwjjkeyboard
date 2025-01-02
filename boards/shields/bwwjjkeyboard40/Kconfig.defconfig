@@ -1,14 +1,14 @@
-if SHIELD_AO40_LEFT
+if SHIELD_bwwjjkeyboard40_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "ao40"
+    default "bwwjjkeyboard40"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_AO40_LEFT || SHIELD_AO40_RIGHT
+if SHIELD_bwwjjkeyboard40_LEFT || SHIELD_bwwjjkeyboard40_RIGHT
 
 config ZMK_SPLIT
     default y
