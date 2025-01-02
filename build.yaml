@@ -1,6 +1,6 @@
 include:
   - board: nice_nano_v2
-    shield: bwwjjkeyboard_left
+    shield: bwwjjkeyboard40_left
   - board: nice_nano_v2
     shield: bwwjjkeyboard40_right
   - board: nice_nano_v2
