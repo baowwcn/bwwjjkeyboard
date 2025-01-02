@@ -34,7 +34,7 @@
 &kp N9  &kp N0  &kp A   &kp Q
 &kp W   &kp E   &kp R   &kp T
             >;
-            sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DEC>;
+            sensor-bindings = <&rot_kp_2 C_BRI_UP C_BRI_DEC>;
         };
 
         layer_2 {
@@ -45,7 +45,7 @@
 &kp W   &kp E   &kp R   &kp T
             >;
 
-            sensor-bindings = <&inc_dec_kp UP DOWN>;
+            sensor-bindings = <&rot_kp_2 UP DOWN>;
         };
     };
 };
