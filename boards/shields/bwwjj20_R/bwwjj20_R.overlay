@@ -31,11 +31,11 @@
             = <&pro_micro 15 GPIO_ACTIVE_HIGH>
             , <&pro_micro 14 GPIO_ACTIVE_HIGH>
             , <&pro_micro 16 GPIO_ACTIVE_HIGH>
-            , <&pro_micro 17 GPIO_ACTIVE_HIGH> // 新增第 4 列
+            , <&pro_micro 10 GPIO_ACTIVE_HIGH> // 新增第 4 列
             ;
 
         row-gpios
-            = <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // 新增第 4 行
@@ -45,8 +45,8 @@
     // 第一个编码器
     encoder2: encoder2 {
         compatible = "alps,ec11";
-        a-gpios = <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        a-gpios = <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <80>;
         status = "okay";
     };
