@@ -1,6 +1,6 @@
-if SHIELD_bwwjjkeyboard20_R
+if SHIELD_bwwjj20_R
 
 config ZMK_KEYBOARD_NAME
-    default "bwwjjkeyboard20_R"
+    default "bwwjj20_R"
 
 endif

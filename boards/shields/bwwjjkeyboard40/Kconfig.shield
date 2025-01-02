@@ -1,5 +1,5 @@
-config SHIELD_bwwjjkeyboard40_LEFT
-    def_bool $(shields_list_contains,bwwjjkeyboard40_left)
+config SHIELD_bwwjj40_LEFT
+    def_bool $(shields_list_contains,bwwjj40_left)
 
-config SHIELD_bwwjjkeyboard40_RIGHT
-    def_bool $(shields_list_contains,bwwjjkeyboard40_right)
+config SHIELD_bwwjj40_RIGHT
+    def_bool $(shields_list_contains,bwwjj40_right)

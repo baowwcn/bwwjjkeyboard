@@ -1,11 +1,11 @@
 file_format: "1"
-id: bwwjjkeyboard40
-name: bwwjjkeyboard40
+id: bwwjj40
+name: bwwjj40
 type: shield
 url: https://github.com/
 requires: [pro_micro]
 features:
   - keys
 siblings:
-  - bwwjjkeyboard40_left
-  - bwwjjkeyboard40_right
+  - bwwjj40_left
+  - bwwjj40_right

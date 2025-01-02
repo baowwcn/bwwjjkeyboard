@@ -1,2 +1,2 @@
-config SHIELD_bwwjjkeyboard20_L
-    def_bool $(shields_list_contains,bwwjjkeyboard20_L)
+config SHIELD_bwwjj20_L
+    def_bool $(shields_list_contains,bwwjj20_L)

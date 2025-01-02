@@ -1,6 +1,6 @@
 file_format: "1"
-id: bwwjjkeyboard20_L
-name: bwwjjkeyboard20_L
+id: bwwjj20_L
+name: bwwjj20_L
 type: shield
 url: https://github.com/
 requires: [pro_micro]

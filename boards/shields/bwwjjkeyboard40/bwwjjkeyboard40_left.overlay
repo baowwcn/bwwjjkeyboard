@@ -1,4 +1,4 @@
-#include "bwwjjkeyboard40.dtsi" // 
+#include "bwwjj40.dtsi" // 
 
 &kscan0 {
     col-gpios
