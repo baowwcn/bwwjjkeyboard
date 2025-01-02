@@ -53,7 +53,7 @@
 
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&encoder2>; // 添加第二个编码器
+        sensors = <&encoder2>; 
         triggers-per-rotation = <20>;
     };
 };

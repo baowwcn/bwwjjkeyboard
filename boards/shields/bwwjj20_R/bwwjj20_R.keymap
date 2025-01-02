@@ -24,12 +24,7 @@
 &kp W   &kp E   &kp R   &kp T
             >;
 
-            // 第一个编码器的绑定
-
-            sensor-bindings =
-                <&rot_kp_2 LEFT RIGHT>;
-
-            // 编码器2：旋转触发 LEFT 和 RIGHT
+            sensor-bindings = <&rot_kp_2 LEFT RIGHT>;
         };
 
         layer_1 {
@@ -39,8 +34,7 @@
 &kp N9  &kp N0  &kp A   &kp Q
 &kp W   &kp E   &kp R   &kp T
             >;
-            sensor-bindings =
-                <&inc_dec_kp C_BRI_UP C_BRI_DEC>;
+            sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DEC>;
         };
 
         layer_2 {
@@ -51,8 +45,7 @@
 &kp W   &kp E   &kp R   &kp T
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp UP DOWN>;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
     };
 };
