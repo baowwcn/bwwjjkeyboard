@@ -19,9 +19,10 @@
 
         layer_0 {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2
-&bt BT_CLR    &bt BT_CLR_ALL  &bt BT_PRV
-&kp N7  &kp N8  &kp N9
+                &kp A    &kp B    &kp C    &kp D    &kp E    &kp F
+                &kp G    &kp H    &kp I    &kp J    &kp K    &kp L
+                &kp M    &kp N    &kp O    &kp P    &kp Q    &kp R
+                &kp S    &kp T    &kp U    &kp V    &kp W    &kp X
             >;
 
             // 第一个编码器的绑定
@@ -34,9 +35,10 @@
 
         layer_1 {
             bindings = <
-&to 2         &kp A           &kp B
-&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2
-&bt BT_CLR    &bt BT_CLR_ALL  &bt BT_PRV
+                &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &trans         &trans         &trans
+                &bt BT_CLR      &bt BT_CLR_ALL  &bt BT_PRV      &trans         &trans         &trans
+                &kp N7          &kp N8          &kp N9          &trans         &trans         &trans
+                &trans          &trans          &trans          &trans         &trans         &trans
             >;
 
             sensor-bindings =
@@ -45,9 +47,10 @@
 
         layer_2 {
             bindings = <
-&to 0      &kp A      &kp B
-&kp C      &kp D      &kp E
-&kp RC(C)  &kp RC(V)  &mmv MOVE_UP
+                &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &trans         &trans         &trans
+                &bt BT_CLR      &bt BT_CLR_ALL  &bt BT_PRV      &trans         &trans         &trans
+                &kp N7          &kp N8          &kp N9          &trans         &trans         &trans
+                &trans          &trans          &trans          &trans         &trans         &trans
             >;
 
             sensor-bindings =
