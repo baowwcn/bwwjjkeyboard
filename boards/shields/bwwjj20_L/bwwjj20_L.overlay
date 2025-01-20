@@ -44,7 +44,7 @@
             ;
     };
 
-    // 第一个编码器
+    // L编码器
     encoder1: encoder1 {
         compatible = "alps,ec11";
         a-gpios = <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
