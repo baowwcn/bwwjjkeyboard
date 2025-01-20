@@ -37,7 +37,7 @@
             bindings = <
                     &kp ESC    &kp Z     &kp Z      &kp E    &kp R     &kp T
                     &kp CAPS   &kp A     &kp S      &kp D    &kp F     &kp G
-                    &to 1      &kp Z     &kp X      &kp C    &kp V     &kp B
+                    &to 2      &kp Z     &kp X      &kp C    &kp V     &kp B
                     &kp LCTRL  &kp LALT  &kp ENTER  &kp TAB  &kp BSPC  &trans
             >;
 
