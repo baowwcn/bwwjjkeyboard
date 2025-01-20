@@ -5,7 +5,7 @@
 
 / {
     behaviors {
-        // 第二个编码器的行为
+        // R编码器的行为
         rot_kp_2: sensor_rotate_kp_2 {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
@@ -18,10 +18,10 @@
 
         layer_0 {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &kp N4
-&bt BT_CLR    &bt BT_CLR_ALL  &bt BT_PRV  &kp N8
-&kp N9  &kp N0  &kp A   &kp Q
-&kp W   &kp E   &kp R   &kp T
+                    &kp ESC    &kp Q     &kp W      &kp E    &kp R     &kp T
+                    &kp CAPS   &kp A     &kp S      &kp D    &kp F     &kp G
+                    &to 1      &kp Z     &kp X      &kp C    &kp V     &kp B
+                    &kp LCTRL  &kp LALT  &kp ENTER  &kp TAB  &kp BSPC  &trans
             >;
 
             sensor-bindings = <&rot_kp_2 LEFT RIGHT>;
@@ -29,10 +29,10 @@
 
         layer_1 {
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4
-&kp N5  &kp N6  &kp N7  &kp N8
-&kp N9  &kp N0  &kp A   &kp Q
-&kp W   &kp E   &kp R   &kp T
+                    &kp ESC    &kp Z     &kp Z      &kp E    &kp R     &kp T
+                    &kp CAPS   &kp A     &kp S      &kp D    &kp F     &kp G
+                    &to 0      &kp Z     &kp X      &kp C    &kp V     &kp B
+                    &kp LCTRL  &kp LALT  &kp ENTER  &kp TAB  &kp BSPC  &trans
             >;
             sensor-bindings = <&rot_kp_2 C_BRI_UP C_BRI_DEC>;
         };

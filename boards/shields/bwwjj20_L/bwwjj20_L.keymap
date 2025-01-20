@@ -5,7 +5,7 @@
 
 / {
     behaviors {
-        // 第一个编码器的行为
+        // L编码器的行为
 
         rot_kp_1: sensor_rotate_kp_1 {
             compatible = "zmk,behavior-sensor-rotate-var";
