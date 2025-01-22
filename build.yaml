@@ -4,8 +4,8 @@ include:
   # - board: nice_nano_v2
   #   shield: bwwjj40_right
   # - board: nice_nano_v2
-  #   shield: bwwjj20_L
-  # - board: nice_nano_v2
+   shield: bwwjj20_L
+   - board: nice_nano_v2
   #   shield: bwwjj20_R
-  - board: nice_nano_v2
-    shield: settings_reset
+  #  - board: nice_nano_v2
+  #   shield: settings_reset
