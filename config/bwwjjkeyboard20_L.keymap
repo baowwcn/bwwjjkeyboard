@@ -26,7 +26,7 @@
 
             // 第一个编码器的绑定
 
-            sensor-bindings = <&rot_kp_1 PG_UP PG_DN>;
+            sensor-bindings = <&rot_kp_1 LEFT_ARROW RIGHT>;
 
             // 编码器1：旋转触发 PG_UP 和 PG_DN,,
         };
