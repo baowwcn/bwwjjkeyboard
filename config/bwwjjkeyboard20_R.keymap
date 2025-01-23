@@ -29,10 +29,10 @@
 
         layer_1 {
             bindings = <
-&to 0            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS           &kp KP_MINUS
-&kp EQUAL        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY       &kp KP_DIVIDE
-&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans           &to 2            &kp ENTER        &kp DOT          &kp BSPC              &kp DEL
+&to 0            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp UP_ARROW    &kp PAGE_UP
+&kp DOT          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LEFT        &kp RIGHT
+&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOWN_ARROW  &kp PAGE_DOWN
+&trans           &to 2            &kp ENTER        &kp SPACE        &kp BSPC        &kp DEL
             >;
 
             sensor-bindings = <&rot_kp_2 UP DOWN>;
