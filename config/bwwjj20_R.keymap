@@ -58,7 +58,7 @@
 
         layer_2 {
             bindings = <
-                    &bt_to 0 OUTPUT_BLE    &bt_to 1 OUTPUT_BLE    &bt_to 2 OUTPUT_BLE    &bt_to 3 OUTPUT_BLE    &bt_to 4 OUTPUT_USB    &bt_clr
+                    &bt_to 0 OUT_BLE    &bt_to 1 OUT_BLE    &bt_to 2 OUT_BLE    &bt_to 3 OUT_BLE    &bt_to 4 OUT_USB    &bt_clr
                     &bt_clr                &trans                &trans                 &trans                 &trans                 &trans
                     &trans                 &trans                &trans                 &trans                 &trans                 &trans
                     &trans                 &to 0                 &kp N7                 &kp N8                 &kp N9                 &to 0
