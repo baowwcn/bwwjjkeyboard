@@ -7,7 +7,7 @@ requires: [pro_micro]
 features:
   - keys
   - encoder
-  - studio  # Remove this line if your keyboard will not support ZMK Studio
+#  - studio  # Remove this line if your keyboard will not support ZMK Studio
 outputs:
   - usb
   - ble
