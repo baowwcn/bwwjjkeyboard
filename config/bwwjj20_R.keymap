@@ -30,13 +30,6 @@
             #binding-cells = <0>;
             bindings = <&bt BT_CLR>;
         };
-
-        bt_clr_all: bt_clr_all {
-            label = "bt_clr_all";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&bt BT_CLR_ALL>;
-        };
     };
 
     keymap {
@@ -65,10 +58,10 @@
 
         layer_2 {
             bindings = <
-                    &bt_to 0 OUT_BLE    &bt_to 1 OUT_BLE    &bt_to 2 OUT_BLE    &bt_to 3 OUT_BLE    &bt_to 4 OUT_USB    &bt_clr
-                    &bt_clr             &bt_clr_all         &trans              &trans              &trans              &trans
-                    &trans              &trans              &trans              &trans              &trans              &trans
-                    &trans              &to 0               &kp N7              &kp N8              &kp N9              &to 0
+                    &bt_to 0 OUTPUT_BLE    &bt_to 1 OUTPUT_BLE    &bt_to 2 OUTPUT_BLE    &bt_to 3 OUTPUT_BLE    &bt_to 4 OUTPUT_USB    &bt_clr
+                    &bt_clr                &trans                &trans                 &trans                 &trans                 &trans
+                    &trans                 &trans                &trans                 &trans                 &trans                 &trans
+                    &trans                 &to 0                 &kp N7                 &kp N8                 &kp N9                 &to 0
             >;
 
             sensor-bindings = <&rot_kp_2 UP DOWN>;
