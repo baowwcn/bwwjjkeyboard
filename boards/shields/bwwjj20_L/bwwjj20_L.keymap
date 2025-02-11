@@ -22,7 +22,7 @@
                     &kp ESC    &kp Q     &kp W      &kp E    &kp R     &kp T
                     &kp CAPS   &kp A     &kp S      &kp D    &kp F     &kp G
                     &to 1      &kp Z     &kp X      &kp C    &kp V     &kp B
-                    &kp LCTRL  &kp LALT  &kp ENTER  &kp TAB  &kp BSPC  &trans
+                    &kp LCTRL  &kp LALT  &kp LSHFT  &kp TAB  &to 1     &trans
             >;
 
             // 第一个编码器的绑定
@@ -37,8 +37,8 @@
             bindings = <
                     &kp ESC    &kp Z     &kp Z      &kp E    &kp R     &kp T
                     &kp CAPS   &kp A     &kp S      &kp D    &kp F     &kp G
-                    &to 2      &kp Z     &kp X      &kp C    &kp V     &kp B
-                    &kp LCTRL  &kp LALT  &kp ENTER  &kp TAB  &kp BSPC  &trans
+                    &kp TAB    &kp Z     &kp X      &kp C    &kp V     &kp B
+                    &kp LCTRL  &kp LALT  &kp LSHFT  &kp TAB  &to 2  &trans
             >;
 
             sensor-bindings =
